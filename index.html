@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="kittenRate">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body ng-controller='controller'>
+    <ul>
+      <a ui-sref="home"><li>Home</li></a>
+      <a ui-sref="kittenRate"><li>Rate</li></a>
+      <a ui-sref="rankings"><li>Rankings</li></a>
+      <a ui-sref="about"><li>About</li></a>
+    </ul>
+
+    <ui-view></ui-view>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js" charset="utf-8"></script>
+    <script src="./js/app.js" charset="utf-8"></script>
+    <script src="./js/controller.js" charset="utf-8"></script>
+    <script src="./js/service.js" charset="utf-8"></script>
+    <script src="./js/about/aboutCtrl.js" charset="utf-8"></script>
+    <script src="./js/home/homeCtrl.js" charset="utf-8"></script>
+    <script src="./js/kittenRate/kittenRateCtrl.js" charset="utf-8"></script>
+    <script src="./js/rankings/rankingsCtrl.js" charset="utf-8"></script>
+    <script src="./js/kittenRate/kittenRateDirective.js" charset="utf-8"></script>
+  </body>
+</html>
