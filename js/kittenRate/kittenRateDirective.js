@@ -15,7 +15,10 @@ angular.module('kittenRate').directive('kittenRateDirective', function(){
         scope.getKittens.then(function(response){
           scope.kittens = response.data
         })
-
+      $("#card").flip({
+        trigger: 'click',
+      });
+      // $(".cuteButton").flip(true)
     }
   }
 

@@ -12,3 +12,117 @@
   padding-left: 150px;
   padding-right: 150px;
 }
+
+.notCute {
+  display: inline-block;
+  position: relative;
+  left: 47%;
+  top: 200px;
+  width: 60px;
+  height: 60px;
+  background: gainsboro;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 50%
+}
+
+#card {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+#card img {
+    width: 400px;
+    height: 400px;
+}
+#card .back {
+    background: darkgrey;
+    color: #fff;
+    text-align: center;
+}
+
+.kitten {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+
+.kitten img {
+  width: 200px;
+  height: auto;
+}
+
+.kitten .back {
+  background: darkgrey;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  overflow: scroll;
+}
+
+.viewMore {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  background: lightblue;
+  color: white;
+  position: relative;
+  top: 50px;
+  left: 540px;
+}
+
+.rankingsList {
+  display: none;
+  width: 50%
+}
+
+.ranking {
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  background: lightgrey;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.place1 {
+  /*position: relative;*/
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  /*margin-left: 100px*/
+}
+
+.place2 {
+  /*position: relative;*/
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background: orange;
+  /*margin-left: 100px*/
+}
+
+.place3 {
+  /*position: relative;*/
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background: grey;
+  /*margin-left: 100px*/
+}
+
+.crop {
+ height: 200px;
+ width: 200px;
+ overflow: hidden;
+}
+.crop img {
+ height: 200px;
+ width: 200px;
+}

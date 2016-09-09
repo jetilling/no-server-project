@@ -18,7 +18,6 @@ $scope.next = function(){
 //push specific kitten to savedKittens array in service
 $scope.saveKitten = function(kitten){
     service.saveKitten(kitten)
-
 }
 
 

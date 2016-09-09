@@ -1,10 +1,21 @@
-<div>
-        <button ng-click='next()'>Not Cute</button>
-  {{kitten.name}}
-    <!-- <img ng-src="{{kitten.img}}" alt="" /> -->
-      <button ng-click='saveKitten({kitten: kitten}); next()'>Cute</button>
 
-</div>
+
+<!-- <button ng-click='saveKitten({kitten: kitten})'>Cute</button> -->
+
+
+  <div id="card">
+    <div class="front">
+      <img class='catImg' ng-src="{{kitten.img}}" ng-click='saveKitten({kitten: kitten})'/>
+    </div>
+    <div class="back">
+      <p>{{kitten.name}}</p>
+      <p>{{kitten.desc}}</p>
+      <button ng-click='next()'>Next Kitten</button>
+    </div>
+  </div>
+
+  <button ng-click='next()' class='notCute'><img src="./img/thumbsDown.png" alt="" /></button>
+
 
 
 
