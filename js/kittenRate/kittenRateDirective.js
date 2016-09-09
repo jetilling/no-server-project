@@ -2,10 +2,10 @@ angular.module('kittenRate').directive('kittenRateDirective', function(){
 
   return {
     restrict: 'AE',
-    templateUrl: './js/kittenRate/kittenRateDirective.html',
+    templateUrl: './views/directives/kittenRateDirective.html',
     scope: {
-      id: '=',
       next: '&',
+      saveKitten: '&',
       kitten: '='
     },
     controller: function($scope, service){

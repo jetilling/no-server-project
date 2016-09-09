@@ -1,5 +1,9 @@
 <div>
-  {{kitten.id}}
+        <button ng-click='next()'>Not Cute</button>
+  {{kitten.name}}
+    <!-- <img ng-src="{{kitten.img}}" alt="" /> -->
+      <button ng-click='saveKitten({kitten: kitten}); next()'>Cute</button>
+
 </div>
 
 

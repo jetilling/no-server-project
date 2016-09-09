@@ -1,3 +1,3 @@
 angular.module('kittenRate').controller('controller', function($scope){
-  $scope.test = 'working'
+  // $scope.test = 'working'
 })

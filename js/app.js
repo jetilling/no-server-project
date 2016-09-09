@@ -6,22 +6,22 @@ angular.module('kittenRate', ['ui.router'])
     .state('home', {
       url: '/',
       controller: 'homeCtrl',
-      templateUrl: './js/home/home.html'
+      templateUrl: './views/home.html'
     })
     .state('kittenRate', {
       url: '/kittenRate',
       controller: 'kittenRateCtrl',
-      templateUrl: './js/kittenRate/kittenRate.html'
+      templateUrl: './views/kittenRate.html'
     })
     .state('rankings', {
       url: '/rankings',
       controller: 'rankingsCtrl',
-      templateUrl: './js/rankings/rankings.html'
+      templateUrl: './views/rankings.html'
     })
     .state('about', {
       url: '/about/:id',
       controller: 'aboutCtrl',
-      templateUrl: './js/about/about.html'
+      templateUrl: './views/about.html'
     })
 
 })

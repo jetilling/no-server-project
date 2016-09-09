@@ -2,14 +2,18 @@
 <html ng-app="kittenRate">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/reset.css" media="screen" title="no title" charset="utf-8">
+
+    <link rel="stylesheet" href="./styles/main.css" media="screen" title="no title" charset="utf-8">
+
     <title></title>
   </head>
   <body ng-controller='controller'>
-    <ul>
+    <ul class="navbar">
       <a ui-sref="home"><li>Home</li></a>
       <a ui-sref="kittenRate"><li>Rate</li></a>
       <a ui-sref="rankings"><li>Rankings</li></a>
-      <a ui-sref="about"><li>About</li></a>
     </ul>
 
     <ui-view></ui-view>
@@ -24,5 +28,6 @@
     <script src="./js/kittenRate/kittenRateCtrl.js" charset="utf-8"></script>
     <script src="./js/rankings/rankingsCtrl.js" charset="utf-8"></script>
     <script src="./js/kittenRate/kittenRateDirective.js" charset="utf-8"></script>
+    <script src="./js/rankings/rankingsDirective.js" charset="utf-8"></script>
   </body>
 </html>
