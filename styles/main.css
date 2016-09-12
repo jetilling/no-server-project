@@ -3,6 +3,7 @@
   height: 60px;
   background: green;
   text-align: center;
+  z-index: 2
 }
 
 .navbar li {
@@ -11,49 +12,236 @@
   top: 20px;
   padding-left: 150px;
   padding-right: 150px;
+  z-index: 2
+}
+
+
+html, body  {
+height: 100%;
+width: 100%
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #999;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.intro-main {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.chair {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .chair {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .chair {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro-main {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .chair {
+    display: none;
+  }
+}
+
+.intro-title {
+  display: inline-block;
+  position: relative;
+  font-family: 'Lobster', cursive;
+  font-size: 120px;
+  color: white;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-top: 15%;
+  left: 15%;
+  z-index: 1
+}
+
+.intro-subtitle {
+  display: inline-block;
+  position: relative;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  top: -60px;
+  left: 40%;
+  z-index: 1
+}
+
+.startButton {
+  position: relative;
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  background: #2b8cbe;
+  outline: none;
+  border-radius: 50px;
+  z-index: 1;
+  border: 1.5px solid #0868ac;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.startButton:hover {
+  background: #0868ac;
+  border: 1.5px solid #2b8cbe;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  /*top: 700px;*/
+  overflow: hidden;
+  display: inline-block;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: white;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.background img {
+  width: 100%;
+  position: absolute;
+}
+
+.navbar {
+  height: 75px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: white;
+  z-index: 2;
+  font-family: 'Lobster', cursive;
+  color: red;
+  font-size: 50px;
+  padding-top: 10px;
+  opacity: .8;
+  box-shadow: 0px 8px 10px #888888;
+}
+
+.navbar a {
+  color: red;
+  text-decoration: none
 }
 
 .notCute {
   display: inline-block;
   position: relative;
-  left: 47%;
-  top: 200px;
+  left: -4%;
+  top: 160px;
   width: 60px;
   height: 60px;
   background: gainsboro;
   outline: none;
   border: 2px solid black;
-  border-radius: 50%
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.notCute img {
+  position: relative;
+}
+
+.cuteButton {
+  display: inline-block;
+  position: relative;
+  left: 20%;
+  top: 160px;
+  width: 60px;
+  height: 60px;
+  background: gainsboro;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.cuteButton img {
+  position: relative;
 }
 
 #card {
     height: 400px;
     width: 400px;
     margin: 0 auto;
-    position: relative;
-    top: 50px;
+    /*position: relative;*/
+    top: 70px;
+    left: 370px;
     text-align: center;
+    z-index: 2;
+    display: inline-block;
 }
 #card img {
     width: 400px;
     height: 400px;
+    /*position: relative;*/
+    left: 0px;
 }
 #card .back {
     background: darkgrey;
     color: #fff;
     text-align: center;
+    /*position: relative;*/
+    left: 0px
 }
 
 .kitten {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   margin: 0 auto;
   position: relative;
   top: 50px;
+  display: inline-block;
+  margin: 40px
 }
 
 .kitten img {
-  width: 200px;
+  width: 300px;
   height: auto;
 }
 
@@ -63,58 +251,6 @@
   text-align: center;
   font-size: 15px;
   overflow: scroll;
-}
-
-.viewMore {
-  display: inline-block;
-  width: 200px;
-  height: 50px;
-  background: lightblue;
-  color: white;
-  position: relative;
-  top: 50px;
-  left: 540px;
-}
-
-.rankingsList {
-  display: none;
-  width: 50%
-}
-
-.ranking {
-  display: flex;
-  width: 100vw;
-  height: 50vh;
-  background: lightgrey;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.place1 {
-  /*position: relative;*/
-  display: flex;
-  width: 200px;
-  height: 200px;
-  background: yellow;
-  /*margin-left: 100px*/
-}
-
-.place2 {
-  /*position: relative;*/
-  display: flex;
-  width: 200px;
-  height: 200px;
-  background: orange;
-  /*margin-left: 100px*/
-}
-
-.place3 {
-  /*position: relative;*/
-  display: flex;
-  width: 200px;
-  height: 200px;
-  background: grey;
-  /*margin-left: 100px*/
 }
 
 .crop {

@@ -1,9 +1,9 @@
 $(document).ready(function(){
-//
+
 //   var width = $(window).width();
-  var height = $(window).height();
+//   var height = $(window).height();
 //   var totalDivs = (width/height)*100;
-  console.log(height)
+//   console.log(height)
 //   function putDivOnScreen(width, height){
 //     for(var i = 0; i <= totalDivs; i++){
 //         $('.div-container').append('<div class="square"></div>')
@@ -22,15 +22,17 @@ $(document).ready(function(){
 // $('.div-container').click(function(){
 //     $(this).css('z-index', '0');
 //   })
+//
+//   $('.flip').click(function(){
+//           $(this).find('.card').addClass('flipped').mouseleave(function(){
+//               $(this).removeClass('flipped');
+//           });
+//           return false;
+//       });
 
-  // $('.flip').click(function(){
-  //         $(this).find('.card').addClass('flipped').mouseleave(function(){
-  //             $(this).removeClass('flipped');
-  //         });
-  //         return false;
-  //     });
-
-
+// $('.startButton').click(function(){
+//   ('.intro-main').css('top', '50px'; 'bottom', '50px')
+// })
 
 
 

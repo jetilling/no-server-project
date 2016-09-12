@@ -1,22 +1,26 @@
 
 
-<!-- <button ng-click='saveKitten({kitten: kitten})'>Cute</button> -->
 
-
+<div class="background">
+  <div class="overlay2"></div>
+  <img src="./img/crumpledPaper.jpg" alt="" />
+  <div class="navbar"><a ui-sref="home">Kitten Tinder</a></div>
+  <a ui-sref="rankings">Rankings</a>
   <div id="card">
     <div class="front">
-      <img class='catImg' ng-src="{{kitten.img}}" ng-click='saveKitten({kitten: kitten})'/>
+      <img ng-src="{{kitten.img}}"/>
     </div>
     <div class="back">
       <p>{{kitten.name}}</p>
       <p>{{kitten.desc}}</p>
-      <button ng-click='next()'>Next Kitten</button>
+      <button ng-click='next(); saveKitten({kitten: kitten})'>Next Kitten</button>
     </div>
   </div>
 
+  <button class="cuteButton"><img src="./img/thumbsUp.png" alt="" /></button>
   <button ng-click='next()' class='notCute'><img src="./img/thumbsDown.png" alt="" /></button>
 
-
+</div>
 
 
 

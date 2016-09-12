@@ -6,17 +6,25 @@
     <link rel="stylesheet" href="./styles/reset.css" media="screen" title="no title" charset="utf-8">
 
     <link rel="stylesheet" href="./styles/main.css" media="screen" title="no title" charset="utf-8">
-
+    <link rel="stylesheet" href="./styles/fonts.css" media="screen" title="no title" charset="utf-8">
     <title></title>
   </head>
   <body ng-controller='controller'>
-    <ul class="navbar">
-      <a ui-sref="home"><li>Home</li></a>
-      <a ui-sref="kittenRate"><li>Rate</li></a>
-      <a ui-sref="rankings"><li>Rankings</li></a>
-    </ul>
+    <!-- <section class="intro-overlay">
+        <button class="div-container">
+          <p>
+            text text text
+          </p>
+          <div class="square"></div>
+        </button> -->
+      <!-- <ul class="navbar">
+        <a ui-sref="home"><li>Home</li></a>
+        <a ui-sref="kittenRate"><li>Rate</li></a>
+        <a ui-sref="rankings"><li>Rankings</li></a>
+      </ul> -->
 
     <ui-view></ui-view>
+  </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js" charset="utf-8"></script>

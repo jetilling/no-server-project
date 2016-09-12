@@ -8,25 +8,25 @@
   {
     "id": "101",
     "name": "Juanito Bandito",
-    "img": "./img/kitten2.jpg",
+    "img": "./img/kitten2.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "102",
     "name": "Charlie",
-    "img": "./img/kitten3.jpg",
+    "img": "./img/kitten3.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "103",
     "name": "Willow",
-    "img": "./img/kitten4.jpg",
+    "img": "./img/kitten4.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "104",
     "name": "Lil' Bub",
-    "img": "./img/kitten5.jpg",
+    "img": "./img/kitten5.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
@@ -38,19 +38,19 @@
   {
     "id": "106",
     "name": "Lacy",
-    "img": "./img/kitten7.jpg",
+    "img": "./img/kitten7.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "106",
     "name": "Olive",
-    "img": "./img/kitten8.jpg",
+    "img": "./img/kitten8.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "107",
     "name": "Matt Smith",
-    "img": "./img/kitten9.jpeg",
+    "img": "./img/kitten9.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
@@ -62,13 +62,13 @@
   {
     "id": "109",
     "name": "Harvey",
-    "img": "./img/kitten11.jpg",
+    "img": "./img/kitten11.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "110",
     "name": "Ron",
-    "img": "./img/kitten12.jpg",
+    "img": "./img/kitten12.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
@@ -80,7 +80,7 @@
   {
     "id": "112",
     "name": "Cat",
-    "img": "./img/kitten14.jpg",
+    "img": "./img/kitten14.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
@@ -98,55 +98,55 @@
   {
     "id": "115",
     "name": "Jack",
-    "img": "./img/kitten17.jpg",
+    "img": "./img/kitten17.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "116",
     "name": "Lola",
-    "img": "./img/kitten18.jpg",
+    "img": "./img/kitten18.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "117",
     "name": "Marbles",
-    "img": "./img/kitten19.jpg",
+    "img": "./img/kitten19.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "118",
     "name": "Styx",
-    "img": "./img/kitten20.jpg",
+    "img": "./img/kitten20.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "120",
     "name": "Grumpy Cat",
-    "img": "./img/kitten21.jpg",
+    "img": "./img/kitten21.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "121",
     "name": "Leppelin",
-    "img": "./img/kitten22.jpg",
+    "img": "./img/kitten22.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "122",
     "name": "Lennon",
-    "img": "./img/kitten23.jpg",
+    "img": "./img/kitten23.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "123",
     "name": "Willy",
-    "img": "./img/kitten24.jpg",
+    "img": "./img/kitten24.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   },
   {
     "id": "124",
     "name": "Floyd",
-    "img": "./img/kitten25.jpg",
+    "img": "./img/kitten25.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae efficitur est. Nulla a purus augue. Fusce ac nunc tempor, porttitor justo aliquam, tempor arcu. Aliquam rhoncus libero in tristique feugiat. Curabitur eleifend tempor velit quis facilisis. Curabitur enim urna, dictum sit amet enim sed, congue faucibus est. Fusce odio velit, accumsan bibendum libero a, placerat feugiat velit. Suspendisse euismod nec dolor quis lacinia."
   }
 ]

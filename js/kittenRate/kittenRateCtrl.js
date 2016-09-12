@@ -20,8 +20,4 @@ $scope.saveKitten = function(kitten){
     service.saveKitten(kitten)
 }
 
-
-
-
-
 });
