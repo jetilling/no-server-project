@@ -1,1 +1,16 @@
-<h1>{{test}}</h1>
+<div class="content">
+  <div class="overlay2"></div>
+  <img src="./img/crumpledPaper.jpg" alt="" />
+  <div class="navbar"><a ui-sref="home">Kitten Tinder</a></div>
+
+  <div id="mySidenav" class="sidenav">
+    <a ui-srf="kittenRate">Kittens</a>
+    <a ui-sref="rankings">My Saved Kittens</a>
+    <div class="rankedKittensBox">
+      <div class="rankedKittens" ng-repeat="kitten in rankedKittens">
+        <img ng-src="{{kitten.img}}" alt="" />
+      </div>
+    </div>
+    <div class='open'><h3 class='text'>Open</h3></div>
+  </div>
+</div>

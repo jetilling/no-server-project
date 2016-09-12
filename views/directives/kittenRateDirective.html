@@ -1,11 +1,23 @@
 
 
-
-<div class="background">
+<div class="content">
   <div class="overlay2"></div>
   <img src="./img/crumpledPaper.jpg" alt="" />
   <div class="navbar"><a ui-sref="home">Kitten Tinder</a></div>
-  <a ui-sref="rankings">Rankings</a>
+
+  <div id="mySidenav" class="sidenav">
+    <a ui-sref="about">About</a>
+    <a ui-sref="rankings">My Saved Kittens</a>
+    <div class="rankedKittensBox">
+      <div class="rankedKittens" ng-repeat="kitten in rankedKittens">
+        <img ng-src="{{kitten.img}}" alt="" />
+      </div>
+    </div>
+    <div class='open'><h3 class='text'>Open</h3></div>
+  </div>
+
+
+
   <div id="card">
     <div class="front">
       <img ng-src="{{kitten.img}}"/>

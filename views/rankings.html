@@ -1,6 +1,3 @@
-<a ui-sref="kittenRate">kittenRate</a>
-
-<br>
 
 <!-- <div class="ranking">
   <div class="place1"></div>
@@ -8,8 +5,17 @@
   <div class="place3"></div>
 </div> -->
 
+<div class="content">
+  <div class="overlay2"></div>
+  <img src="./img/crumpledPaper.jpg" alt="" />
+  <div class="navbar"><a ui-sref="home">Kitten Tinder</a></div>
 
-
-
-
-<rankings-directive ng-repeat='kitten in kittens' kitten='kitten'></rankings-directive>
+  <div id="mySidenav" class="sidenav">
+    <a ui-sref="about">About</a>
+    <a ui-sref="kittenRate">Kittens</a>
+    <div class='open'><h3 class='text'>Open</h3></div>
+  </div>
+  <div class="kittenCollection">
+    <rankings-directive ng-repeat='kitten in kittens' kitten='kitten'></rankings-directive>
+  </div>
+</div>

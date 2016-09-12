@@ -1,3 +1,4 @@
+
 .navbar {
   width: 100%;
   height: 60px;
@@ -121,7 +122,7 @@ width: 100%
   border: 1.5px solid #2b8cbe;
 }
 
-.background {
+.content {
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -144,7 +145,7 @@ width: 100%
   z-index: 1;
 }
 
-.background img {
+.content img {
   width: 100%;
   position: absolute;
 }
@@ -169,11 +170,87 @@ width: 100%
   text-decoration: none
 }
 
+.sidenav {
+    height: 100%;
+    width: 20px;
+    position: fixed;
+    z-index: 4;
+    top: 75px;
+    left: 0px;
+    background-color: #2B2929;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.open {
+  display: inline-block;
+  height: 120%;
+  width: 20px;
+  background: #201E1E;
+  position: relative;
+  top: -209px;
+  z-index: 4;
+  transition: 0.5s;
+  border-bottom: 2px solid black
+}
+.close {
+  height: 120%;
+  width: 20px;
+  background: #201E1E;
+  position: relative;
+  top: -140px;
+  z-index: 5;
+  transition: 0.5s;
+  border-bottom: 2px solid black
+}
+
+.text {
+  transform: rotate(-90deg);
+  position: relative;
+  top: 300px;
+  color: #3E3939;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 4px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.rankedKittensBox {
+  height: 10%;
+  width: 200px;
+}
+
+.rankedKittens {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+.rankedKittens img {
+  width: 50px;
+  display: inline-block;
+  margin-left: 30px
+
+}
+
 .notCute {
   display: inline-block;
   position: relative;
-  left: -4%;
-  top: 160px;
+  left: 0%;
+  top: 120px;
   width: 60px;
   height: 60px;
   background: gainsboro;
@@ -190,8 +267,8 @@ width: 100%
 .cuteButton {
   display: inline-block;
   position: relative;
-  left: 20%;
-  top: 160px;
+  left: 25%;
+  top: 120px;
   width: 60px;
   height: 60px;
   background: gainsboro;
@@ -210,8 +287,8 @@ width: 100%
     width: 400px;
     margin: 0 auto;
     /*position: relative;*/
-    top: 70px;
-    left: 370px;
+    top: 40px;
+    left: 430px;
     text-align: center;
     z-index: 2;
     display: inline-block;
@@ -221,13 +298,23 @@ width: 100%
     height: 400px;
     /*position: relative;*/
     left: 0px;
+    border-radius: 25px;
 }
 #card .back {
     background: darkgrey;
     color: #fff;
     text-align: center;
     /*position: relative;*/
-    left: 0px
+    left: 0px;
+    border-radius: 25px;
+
+}
+
+.kittenCollection {
+  overflow: scroll;
+  height: 100vh;
+  width: 100%;
+
 }
 
 .kitten {
@@ -237,12 +324,17 @@ width: 100%
   position: relative;
   top: 50px;
   display: inline-block;
-  margin: 40px
+  margin: 40px;
+  left: 60px;
+  z-index: 2;
+  overflow: scroll;
 }
 
 .kitten img {
   width: 300px;
   height: auto;
+  border-radius: 25px;
+  z-index: 2
 }
 
 .kitten .back {
@@ -251,6 +343,8 @@ width: 100%
   text-align: center;
   font-size: 15px;
   overflow: scroll;
+  border-radius: 25px;
+  z-index: 2
 }
 
 .crop {

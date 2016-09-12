@@ -15,8 +15,8 @@ angular.module('kittenRate').service('service', function($http){
 //function to push saved kitten into saveKitten array.
   this.saveKitten = function(saveKitten){
     savedKittens.push(saveKitten)
-    
   }
 
+  
 
 })

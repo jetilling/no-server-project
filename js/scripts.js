@@ -1,39 +1,20 @@
 $(document).ready(function(){
 
-//   var width = $(window).width();
-//   var height = $(window).height();
-//   var totalDivs = (width/height)*100;
-//   console.log(height)
-//   function putDivOnScreen(width, height){
-//     for(var i = 0; i <= totalDivs; i++){
-//         $('.div-container').append('<div class="square"></div>')
-//     }
-//   }
-// putDivOnScreen(width, height);
-//
-// $('.square')
-//   .mouseover(function(){
-//     $(this).css('background', 'transparent').delay(1000)
-//           .queue(function (next) {
-//             $(this).css('background', 'black');
-//             next();
-//           })
-//   })
-// $('.div-container').click(function(){
-//     $(this).css('z-index', '0');
-//   })
-//
-//   $('.flip').click(function(){
-//           $(this).find('.card').addClass('flipped').mouseleave(function(){
-//               $(this).removeClass('flipped');
-//           });
-//           return false;
-//       });
+var open = false;
 
-// $('.startButton').click(function(){
-//   ('.intro-main').css('top', '50px'; 'bottom', '50px')
-// })
-
+$(document).on('mouseover', ".open", function() {
+  if(!open){
+  document.getElementById("mySidenav").style.width = "250px";
+  $('.open').css('left', '230px');
+  $('.text').text('Close');
+  open = true;
+} else if(open){
+      document.getElementById("mySidenav").style.width = "20px";
+      $('.open').css('left', '0px');
+      $('.text').text('Open');
+      open = false;
+  }
+})
 
 
 })
