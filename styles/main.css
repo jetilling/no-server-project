@@ -310,6 +310,15 @@ width: 100%
     font-family: 'Nunito', sans-serif;
 }
 
+.kittenDesc {
+  padding: 20px;
+}
+
+.kittenName {
+  font-size: 30px;
+  padding: 20px;
+}
+
 .back button {
   margin-top: 20px;
   border: 2px solid black;
@@ -357,7 +366,14 @@ width: 100%
   border-radius: 25px;
   z-index: 2;
   font-family: 'Nunito', sans-serif;
+}
+.savedKittenName {
+  padding-top: 10px;
+  font-size: 20px;
+}
 
+.savedKittenDesc {
+  padding-top: 10px;
 }
 
 .crop {
@@ -368,4 +384,12 @@ width: 100%
 .crop img {
  height: 200px;
  width: 200px;
+}
+
+.main img {
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  left: 300px;
+  top: 75px;
 }
